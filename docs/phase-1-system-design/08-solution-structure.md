@@ -68,7 +68,7 @@ Day la dinh huong thu muc cho cac phase hien thuc; trong Phase 2 chi tao skeleto
 ## Cau hinh .NET
 
 - Tat ca project nham `net10.0`.
-- `Directory.Build.props` dung chung target framework va cac thiet lap build can thiet.
+- `Directory.Build.props` dung chung cac thiet lap C#; target framework `net10.0` duoc ghi ro trong tung project file.
 - `global.json` chon SDK .NET 10 co san, cho phep patch/feature band tuong thich.
 - Cau hinh chay (database, RabbitMQ, URL/port) se duoc doc tu configuration/environment o cac phase tich hop; khong commit secrets.
 - Mỗi service se co Dockerfile rieng va docker-compose se duoc bo sung trong phase Docker; khong tao cac file do trong Phase 2.
